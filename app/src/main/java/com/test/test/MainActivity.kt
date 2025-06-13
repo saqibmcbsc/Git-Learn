@@ -62,7 +62,6 @@ class MainActivity : AppCompatActivity(), OnMapReadyCallback {
         val mapFragment = supportFragmentManager.findFragmentById(R.id.map) as SupportMapFragment
         mapFragment.getMapAsync(this)
 
-
         val btnToggle = findViewById<Button>(R.id.btnToggleRecording)
         btnToggle.setOnClickListener {
             isRecording = !isRecording
